@@ -23,10 +23,7 @@ point = S256Point.parse(tx_in.sec_pubkey())
 print(point.verify(z, sig))
 ```
 
-    True
-
-
-### Exercise
+### Try it
 
 #### Validate this signature
 
@@ -55,7 +52,7 @@ z = 0x27e0c5994dec7824e56dec6b2fcb342eb7cdb0d0957c2fce9882f715e85d81a6
 # use S256Point.verify method
 ```
 
-### Exercise
+### Try it
 
 #### Validate the signature for the first input in this transaction.
 ```
